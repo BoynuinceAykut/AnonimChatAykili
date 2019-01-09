@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Anonim Chat</string>
+    <string name="UserName">Kullanıcı Adı</string>
+    <string name="Password">Şifre</string>
+    <string name="Login">Giriş</string>
+    <string name="Register">Kayıt Ol</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="k_yap">Çıkış Yap</string>
+    <string name="Send">Gönder</string>
+    <string name="LoadingLogin">Giriş yapılıyor. Lütfen bekleyiniz.</string>
+    <string name="LoadingMessage">Lütfen bekleyiniz.</string>
+    <string name="PleaseFillInput">Lütfen gerekli alanları doldurunuz.</string>
+    <string name="PasswordsDoNotMatch">Şifreler uyuşmuyor</string>
+    <string name="ForgotPassword">Şifremi Unuttum</string>
+    <string name="LogoutMessage">Çıkış Yapılıyor</string>
+    <string name="PasswordAgain">Şifrenizi tekrar giriniz</string>
+    <string name="PasswordMinLength">Şifre en az 6 haneli olmalıdır</string>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="ResetSendMail">Sıfırlama maili gönderildi</string>
+
+</resources>

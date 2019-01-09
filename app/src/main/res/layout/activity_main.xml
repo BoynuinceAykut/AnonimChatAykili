@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        style="@android:style/Widget.Holo.Light.EditText"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="167dp"
+        android:autoLink="email"
+        android:ems="10"
+        android:foreground="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:hint="@string/UserName"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/common_google_signin_btn_text_dark_default"
+        android:singleLine="true"
+        android:text="boynuince.aykut@gmail.com"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColorHighlight="@color/common_google_signin_btn_text_dark_default"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_pressed"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_default"
+        android:textCursorDrawable="@color/common_google_signin_btn_text_dark_default" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        style="@android:style/Widget.Holo.Light.EditText"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextUserName"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="224dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:foreground="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:hint="@string/Password"
+        android:inputType="numberPassword"
+        android:shadowColor="@color/common_google_signin_btn_text_dark_default"
+        android:text="123456"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColorHighlight="@color/common_google_signin_btn_text_dark_default"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_default"
+        android:textCursorDrawable="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        style="@android:style/Widget.Holo.Light.Button"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonRegister"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Login" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        style="@android:style/Widget.Holo.Light.Button"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="151dp"
+        android:text="@string/Register" />
+
+    <TextView
+        android:id="@+id/textViewPasswordForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="99dp"
+        android:text="@string/ForgotPassword"
+        android:textAlignment="viewStart"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "34207696207",
+    "firebase_url": "https://anonimchat-327d5.firebaseio.com",
+    "project_id": "anonimchat-327d5",
+    "storage_bucket": "anonimchat-327d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34207696207:android:98441a2873437209",
+        "android_client_info": {
+          "package_name": "com.aykutboynuince.aykilisoft.anonimchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34207696207-21up4sm91n5si75g87v5629qi4apgqf2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aykutboynuince.aykilisoft.anonimchat",
+            "certificate_hash": "a1c0b3af4fb28326e529ae113226f675f6b6e680"
+          }
+        },
+        {
+          "client_id": "34207696207-l6p49fmvpeq1qjf92uqjnkjhm19uugio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYj5k_RONwEzw2rdmw8YjnWZEARceIKY8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34207696207-l6p49fmvpeq1qjf92uqjnkjhm19uugio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

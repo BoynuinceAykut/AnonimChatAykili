@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anonim Chat</string>
+    <string name="UserName">User Name</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="k_yap">Logout</string>
+    <string name="Send">Send</string>
+    <string name="LoadingLogin">Loading. Please waiting.</string>
+    <string name="LoadingMessage">" Please waiting."</string>
+    <string name="PleaseFillInput">Please fill in the required fields.</string>
+    <string name="PasswordsDoNotMatch">Passwords do not match</string>
+    <string name="ForgotPassword">I Forgot My Password</string>
+    <string name="LogoutMessage">Signing out</string>
+    <string name="PasswordAgain">"Enter Password Again "</string>
+    <string name="PasswordMinLength">Password must be at least 6 digits</string>
+    <string name="ResetSendMail">Reset send mail</string>
+
+</resources>
